@@ -3,6 +3,8 @@
 An Ini file parser following the git-config flawor. It should work on most Javascript
 enviroments, including web browsers, although its utility there is debatable :)
 
+Check the supported syntax at http://linux.die.net/man/1/git-config
+
 
 ## Example
 
