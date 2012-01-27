@@ -1,0 +1,23 @@
+{
+  "name": "Ini",
+  "description": "Ini file parser supporting Git config syntax.",
+  "version": "1.0",
+  "licenses": [{
+    "type": "MIT",
+    "url": "http://en.wikipedia.org/wiki/MIT_License"
+  }],
+  "maintainers": [{
+    "name": "Iván -DrSlump- Montes",
+    "web": "http://pollinimini.net/",
+    "email": "drslump@pollinimini.net"
+  }],
+  "repositories": [{
+    "type": "git",
+    "url": "http://github.com/drslump/ini-js"
+  }],
+  "dependencies": [
+  ],
+  "directories": {
+    "lib": "lib"
+  }
+}
