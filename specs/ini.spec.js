@@ -73,5 +73,12 @@ describe('Ini', function(){
         expect(ini.toString()).toEqual('[foo]\nbar = value\nbaz = value\n\n');
         expect(ini.get('foo').toString()).toEqual('bar = value\nbaz = value\n');
     });
+
+    it('property overrides', function () {
+        ini.parse('foo = a\nfoo = b\nfoo = c');
+        expect(ini.get('foo')).toEqual('c');
+        expect(ini.toObject()).toEqual({foo: 'c'});
+    });
+
 });
 
